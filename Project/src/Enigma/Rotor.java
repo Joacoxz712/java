@@ -44,7 +44,7 @@ class Rotor {
         int input = letter - 'A';
         // Ajustar por la posición del rotor
         input = (input + position) % 26;
-        // Pasar por el cableado
+
         char output = wiring.charAt(input);
         // Ajustar de vuelta por la posición
         int result = (output - 'A' - position) % 26;
