@@ -8,7 +8,6 @@ public class Plugboard {
 
     public Plugboard() {
         connections = new HashMap<>();
-
         for (char c = 'A'; c <= 'Z'; c++) {
             connections.put(c, c);
         }
